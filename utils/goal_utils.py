@@ -5,8 +5,6 @@ from bs4 import BeautifulSoup
 def retrieve_goal_data():
     data = requests.get("https://www.premierleague.com/stats/top/players/goals")
     soup = BeautifulSoup(data.content, 'html.parser')
-    player = soup.find('a', class_='playerName').text.strip()
-    team = soup.find('a', class_='stats-table__cell-icon-align').text.strip()
     table = soup.find('tbody', class_= 'stats-table__container')
     table_elements = table.find_all('tr')
     player_info = []
