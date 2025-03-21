@@ -11,9 +11,10 @@ def retrieve_goal_data():
     table_elements = table.find_all('tr')
     player_info = []
     for player in table_elements:
+        rank = player.find('td', class_='stats-table__rank').text.strip(".")
         name = player.find('a', class_='playerName').text.strip()
         team = player.find('a', class_='stats-table__cell-icon-align').text.strip()
         nationality = player.find('div', class_="stats-table__cell-icon-align").text.strip()
-        goals = player.find('td', class_="stats-table__main-stat").text.strip()
-        player_info.append({'name':name, 'team':team, 'nationality':nationality, 'goals_scored':int(goals)})
+        goals = player.find('td', class_='stats-table__main-stat').text.strip()
+        player_info.append({'rank': int(rank), 'name': name, 'team': team, 'nationality': nationality, 'goals_scored': int(goals)})
     return player_info

@@ -1,59 +1,69 @@
 [
     {
+        "rank": 1,
         "name": "Mohamed Salah",
         "team": "Liverpool",
         "nationality": "Egypt",
         "goals_scored": 27
     },
     {
+        "rank": 2,
         "name": "Erling Haaland",
         "team": "Manchester City",
         "nationality": "Norway",
         "goals_scored": 21
     },
     {
+        "rank": 3,
         "name": "Alexander Isak",
         "team": "Newcastle United",
         "nationality": "Sweden",
         "goals_scored": 19
     },
     {
+        "rank": 4,
         "name": "Chris Wood",
         "team": "Nottingham Forest",
         "nationality": "New Zealand",
         "goals_scored": 18
     },
     {
+        "rank": 5,
         "name": "Bryan Mbeumo",
         "team": "Brentford",
         "nationality": "Cameroon",
         "goals_scored": 15
     },
     {
+        "rank": 6,
         "name": "Cole Palmer",
         "team": "Chelsea",
         "nationality": "England",
         "goals_scored": 14
     },
     {
+        "rank": 6,
         "name": "Yoane Wissa",
         "team": "Brentford",
         "nationality": "DR Congo",
         "goals_scored": 14
     },
     {
+        "rank": 8,
         "name": "Matheus Cunha",
         "team": "Wolverhampton Wanderers",
         "nationality": "Brazil",
         "goals_scored": 13
     },
     {
+        "rank": 8,
         "name": "Ollie Watkins",
         "team": "Aston Villa",
         "nationality": "England",
         "goals_scored": 13
     },
     {
+        "rank": 10,
         "name": "Justin Kluivert",
         "team": "Bournemouth",
         "nationality": "Netherlands",
