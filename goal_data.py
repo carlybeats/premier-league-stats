@@ -4,7 +4,7 @@ from utils.goal_utils import retrieve_goal_data
 
 
 def write_to_json_file():
-    goals_data = retrieve_goal_data()
+    goals_data = retrieve_goal_data()[0]
     if os.environ.get("TESTING") != 'True':
         with open('data/goals.json', 'w') as f:
             json.dump(goals_data, f, indent=4)
