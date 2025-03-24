@@ -27,7 +27,7 @@ def test_write_to_json_success(mock_scrape_goal_data):
     assert result == "Write to JSON file successful!"
     assert test_data[0]['name'] == "Mohamed Salah"
     
-@pytest.mark.skip
+#@pytest.mark.skip
 def test_correct_num_of_players_returned():
     #Number of players extracted (result[0]) should match the number of players stored in the table
     #  on premier league website (result[1])
@@ -35,7 +35,7 @@ def test_correct_num_of_players_returned():
     print(result)
     assert len(result[0]) == result[1]
 
-@pytest.mark.skip
+#@pytest.mark.skip
 @patch("utils.goal_utils.get_num_of_players_in_table")
 def test_wrong_num_of_players_extracted_raises_exception(mock_get_num_of_players_in_table):
     mock_get_num_of_players_in_table.return_value = 67199
