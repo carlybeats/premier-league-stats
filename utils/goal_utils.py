@@ -15,7 +15,7 @@ options.add_argument('-headless')
 
 driver = webdriver.Firefox(service=service, options=options)
 
-def retrieve_goal_data():
+def scrape_goal_data():
     start = time.time()
     driver.get("https://www.premierleague.com/stats/top/players/goals")
     time.sleep(1) 
@@ -40,7 +40,7 @@ def retrieve_goal_data():
         print("No ad found, continuing...")
     while True:
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-        time.sleep(2)
+        time.sleep(2.5)
         table = soup.find('tbody', class_= 'stats-table__container')
         table_elements = table.find_all('tr')
         for player in table_elements:
@@ -55,7 +55,7 @@ def retrieve_goal_data():
             player_info.append({'rank':rank, 'name':name, 'team':team, 'nationality':nationality, 'goals_scored':goals})
         try:
         #Pressing the 'next' button to access the next batch of 10 rows in the table
-            next_button = WebDriverWait(driver, 0.5).until(
+            next_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.CLASS_NAME,'paginationNextContainer:not(.inactive)')))
             next_button.click()
         except:
@@ -63,25 +63,26 @@ def retrieve_goal_data():
     end = time.time()
     time_taken = end - start
     
-
     # The number stored in data-num-entries on HTML is retrieved with this block of code
     # The number represents how many rows there are in the table
     # The length of the player_info table should match with this number, if not there is a problem somewhere
     wrapper = soup.find('div', class_="wrapper col-12")
     data_num_entries = str(wrapper.contents[1])[50:75]
-    pattern = re.compile(r'\d+')
-    results = re.findall(pattern, data_num_entries)
-    expected_num_of_extracted_players = int(results[0])
+    expected_num_of_players = get_num_of_players_in_table(data_num_entries)
     actual_num_of_extracted_players = len(player_info)
-    if expected_num_of_extracted_players == actual_num_of_extracted_players:
+    print(f"Expected: {expected_num_of_players}. Actual: {actual_num_of_extracted_players}")
+    if expected_num_of_players == actual_num_of_extracted_players:
         print(f"Extraction complete! {actual_num_of_extracted_players} players extracted from Premier League Goals Stats")
         print(f"Extraction took {time_taken:.2f} seconds")
     else:
-        print("Erroneous num of players were extracted...")
-        print(f"Expected num of players extracted: {expected_num_of_extracted_players}")
-        print(f"Actual num of players extracted: {actual_num_of_extracted_players}")
+        raise Exception("Erroneous amount of players extracted. Please run program again")
 
-    return player_info, expected_num_of_extracted_players
+    return player_info, expected_num_of_players
 
+def get_num_of_players_in_table(data_num_entries):
+    pattern = re.compile(r'\d+')
+    results = re.findall(pattern, data_num_entries)
+    expected_num_of_extracted_players = int(results[0])
+    return expected_num_of_extracted_players
 
 
