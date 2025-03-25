@@ -15,6 +15,12 @@ def retrieve_filepath():
 def base_dataframe():
     filepath = retrieve_filepath()
     df = pd.read_json(filepath)
+    # missing_rows = df[df.team.isnull()]
+    # print(missing_rows)
+    # Assigning beto a team
+    df.loc[df['name'] == 'Beto', 'team'] = 'Everton'
+    df.dropna(inplace=True)
     return df
 
-#base_dataframe()
+dataframe = base_dataframe()
+print(dataframe)

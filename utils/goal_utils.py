@@ -39,8 +39,8 @@ def scrape_goal_data():
     except Exception:
         print("No ad found, continuing...")
     while True:
+        time.sleep(2)
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-        time.sleep(2.5)
         table = soup.find('tbody', class_= 'stats-table__container')
         table_elements = table.find_all('tr')
         for player in table_elements:
@@ -55,7 +55,7 @@ def scrape_goal_data():
             player_info.append({'rank':rank, 'name':name, 'team':team, 'nationality':nationality, 'goals_scored':goals})
         try:
         #Pressing the 'next' button to access the next batch of 10 rows in the table
-            next_button = WebDriverWait(driver, 10).until(
+            next_button = WebDriverWait(driver, 15).until(
             EC.element_to_be_clickable((By.CLASS_NAME,'paginationNextContainer:not(.inactive)')))
             next_button.click()
         except:
@@ -68,6 +68,7 @@ def scrape_goal_data():
     # The length of the player_info table should match with this number, if not there is a problem somewhere
     wrapper = soup.find('div', class_="wrapper col-12")
     data_num_entries = str(wrapper.contents[1])[50:75]
+    driver.quit()
     expected_num_of_players = get_num_of_players_in_table(data_num_entries)
     actual_num_of_extracted_players = len(player_info)
     print(f"Expected: {expected_num_of_players}. Actual: {actual_num_of_extracted_players}")
