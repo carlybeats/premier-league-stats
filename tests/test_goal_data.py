@@ -2,7 +2,7 @@ import pytest
 import os
 from goal_data import write_to_json_file
 from utils.goal_utils import scrape_goal_data, get_num_of_players_in_table
-from analysis.goal_analysis import retrieve_filepath, base_dataframe
+from analysis.json_to_dataframe import retrieve_filepath, base_dataframe
 from unittest.mock import patch
 import json
 import pandas as pd
