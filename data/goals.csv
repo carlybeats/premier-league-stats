@@ -1,0 +1,235 @@
+rank,name,team,nationality,goals_scored
+1,Mohamed Salah,Liverpool,Egypt,27
+2,Erling Haaland,Manchester City,Norway,21
+3,Alexander Isak,Newcastle United,Sweden,19
+4,Chris Wood,Nottingham Forest,New Zealand,18
+5,Bryan Mbeumo,Brentford,Cameroon,15
+6,Cole Palmer,Chelsea,England,14
+6,Yoane Wissa,Brentford,DR Congo,14
+8,Matheus Cunha,Wolverhampton Wanderers,Brazil,13
+8,Ollie Watkins,Aston Villa,England,13
+10,Justin Kluivert,Bournemouth,Netherlands,12
+10,Jean-Philippe Mateta,Crystal Palace,France,12
+12,Liam Delap,Ipswich Town,England,10
+12,Raúl Jiménez,Fulham,Mexico,10
+14,Luis Díaz,Liverpool,Colombia,9
+14,Kai Havertz,Arsenal,Germany,9
+14,Nicolas Jackson,Chelsea,Senegal,9
+14,Brennan Johnson,Tottenham Hotspur,Wales,9
+14,James Maddison,Tottenham Hotspur,England,9
+14,Jørgen Strand Larsen,Wolverhampton Wanderers,Norway,9
+20,Bruno Fernandes,Manchester United,Portugal,8
+20,Cody Gakpo,Liverpool,Netherlands,8
+20,João Pedro,Brighton & Hove Albion,Brazil,8
+23,Jarrod Bowen,West Ham United,England,7
+23,Phil Foden,Manchester City,England,7
+23,Alex Iwobi,Fulham,Nigeria,7
+23,Dejan Kulusevski,Tottenham Hotspur,Sweden,7
+23,Noni Madueke,Chelsea,England,7
+23,Kaoru Mitoma,Brighton & Hove Albion,Japan,7
+23,Dango Ouattara,Bournemouth,Burkina Faso,7
+23,Morgan Rogers,Aston Villa,England,7
+23,Ismaïla Sarr,Crystal Palace,Senegal,7
+23,Kevin Schade,Brentford,Germany,7
+23,Antoine Semenyo,Bournemouth,Ghana,7
+23,Dominic Solanke,Tottenham Hotspur,England,7
+23,Son Heung-Min,Tottenham Hotspur,South Korea,7
+23,Tomás Soucek,West Ham United,Czech Republic,7
+23,Jamie Vardy,Leicester City,England,7
+23,Danny Welbeck,Brighton & Hove Albion,England,7
+40,Evanilson,Bournemouth,Brazil,6
+40,Amad Diallo,Manchester United,Cote D’Ivoire,6
+40,Beto,Everton,Guinea-Bissau,6
+40,Anthony Gordon,Newcastle United,England,6
+40,Gabriel Martinelli,Arsenal,Brazil,6
+40,Rodrigo Muniz,Fulham,Brazil,6
+40,Iliman Ndiaye,Everton,Senegal,6
+47,Harvey Barnes,Newcastle United,England,5
+47,Anthony Elanga,Nottingham Forest,Sweden,5
+47,Morgan Gibbs-White,Nottingham Forest,England,5
+47,Josko Gvardiol,Manchester City,Croatia,5
+47,Callum Hudson-Odoi,Nottingham Forest,England,5
+47,Mikel Merino,Arsenal,Spain,5
+47,Yankuba Minteh,Brighton & Hove Albion,Gambia,5
+47,Jacob Murphy,Newcastle United,England,5
+47,Darwin Núñez,Liverpool,Uruguay,5
+47,Georginio Rutter,Brighton & Hove Albion,France,5
+47,Bukayo Saka,Arsenal,England,5
+47,Emile Smith Rowe,Fulham,England,5
+47,Dominik Szoboszlai,Liverpool,Hungary,5
+47,Diogo Jota,Liverpool,Portugal,5
+47,Harry Wilson,Fulham,Wales,5
+62,Joelinton,Newcastle United,Brazil,4
+62,Jordan Ayew,Leicester City,Ghana,4
+62,Facundo Buonanotte,Leicester City,Argentina,4
+62,Marc Cucurella,Chelsea,Spain,4
+62,Enzo Fernández,Chelsea,Argentina,4
+62,Alejandro Garnacho,Manchester United,Argentina,4
+62,Mateo Kovacic,Manchester City,Croatia,4
+62,Omar Marmoush,Manchester City,Egypt,4
+62,Nikola Milenkovic,Nottingham Forest,Serbia,4
+62,Christian Nørgaard,Brentford,Denmark,4
+62,Marcus Rashford,Aston Villa,England,4
+62,Sam Szmodics,Ipswich Town,Ireland,4
+62,Lucas Paquetá,West Ham United,Brazil,4
+62,Leandro Trossard,Arsenal,Belgium,4
+76,Rayan Aït-Nouri,Wolverhampton Wanderers,Algeria,3
+76,Joe Aribo,Southampton,Nigeria,3
+76,Ross Barkley,Aston Villa,England,3
+76,Dominic Calvert-Lewin,Everton,England,3
+76,Trevoh Chalobah,Chelsea,England,3
+76,Gabriel Jesus,Arsenal,Brazil,3
+76,Jérémy Doku,Manchester City,Belgium,3
+76,Gabriel Magalhães,Arsenal,Brazil,3
+76,João Gomes,Wolverhampton Wanderers,Brazil,3
+76,Marc Guéhi,Crystal Palace,England,3
+76,Bruno Guimarães,Newcastle United,Brazil,3
+76,Omari Hutchinson,Ipswich Town,England,3
+76,Rasmus Højlund,Manchester United,Denmark,3
+76,Curtis Jones,Liverpool,England,3
+76,Mohammed Kudus,West Ham United,Ghana,3
+76,Pedro Neto,Chelsea,Portugal,3
+76,Alexis Mac Allister,Liverpool,Argentina,3
+76,Stephy Mavididi,Leicester City,England,3
+76,Dwight McNeil,Everton,England,3
+76,Daniel Muñoz,Crystal Palace,Colombia,3
+76,Christopher Nkunku,Chelsea,France,3
+76,Ethan Nwaneri,Arsenal,England,3
+76,Paul Onuachu,Southampton,Nigeria,3
+76,Thomas Partey,Arsenal,Ghana,3
+76,Pape Sarr,Tottenham Hotspur,Senegal,3
+76,Marcus Tavernier,Bournemouth,England,3
+76,Joshua Zirkzee,Manchester United,Netherlands,3
+103,Simon Adingra,Brighton & Hove Albion,Cote D’Ivoire,2
+103,Ola Aina,Nottingham Forest,Nigeria,2
+103,Trent Alexander-Arnold,Liverpool,England,2
+103,Cameron Archer,Southampton,England,2
+103,Marco Asensio,Aston Villa,Spain,2
+103,Carlos Baleba,Brighton & Hove Albion,Cameroon,2
+103,Jan Bednarek,Southampton,Poland,2
+103,Jean-Ricner Bellegarde,Wolverhampton Wanderers,France,2
+103,Rodrigo Bentancur,Tottenham Hotspur,Uruguay,2
+103,Yves Bissouma,Tottenham Hotspur,Mali,2
+103,David Brooks,Bournemouth,Wales,2
+103,Riccardo Calafiori,Arsenal,Italy,2
+103,Ryan Christie,Bournemouth,Scotland,2
+103,Nathan Collins,Brentford,Ireland,2
+103,Mikkel Damsgaard,Brentford,Denmark,2
+103,Richarlison,Tottenham Hotspur,Brazil,2
+103,Kevin De Bruyne,Manchester City,Belgium,2
+103,Matthijs de Ligt,Manchester United,Netherlands,2
+103,Tyler Dibling,Southampton,England,2
+103,Matt Doherty,Wolverhampton Wanderers,Ireland,2
+103,Abdoulaye Doucouré,Everton,Mali,2
+103,Bilal El Khannouss,Leicester City,Morocco,2
+103,Eberechi Eze,Crystal Palace,England,2
+103,Jota Silva,Nottingham Forest,Portugal,2
+103,Fábio Carvalho,Brentford,Portugal,2
+103,Niclas Füllkrug,West Ham United,Germany,2
+103,Gonçalo Guedes,Wolverhampton Wanderers,Portugal,2
+103,Jack Hinshelwood,Brighton & Hove Albion,England,2
+103,George Hirst,Ipswich Town,Scotland,2
+103,Andreas Pereira,Fulham,Brazil,2
+103,Dean Huijsen,Bournemouth,Spain,2
+103,Hwang Hee-Chan,Wolverhampton Wanderers,South Korea,2
+103,James Justin,Leicester City,England,2
+103,Michael Keane,Everton,England,2
+103,Milos Kerkez,Bournemouth,Hungary,2
+103,Tariq Lamptey,Brighton & Hove Albion,Ghana,2
+103,Lisandro Martínez,Manchester United,Argentina,2
+103,James McAtee,Manchester City,England,2
+103,Bernardo Silva,Manchester City,Portugal,2
+103,Jake O'Brien,Everton,Ireland,2
+103,Amadou Onana,Aston Villa,Belgium,2
+103,Emerson,West Ham United,Italy,2
+103,Jaden Philogene,Ipswich Town,England,2
+103,Ethan Pinnock,Brentford,Jamaica,2
+103,Pedro Porro,Tottenham Hotspur,Spain,2
+103,Declan Rice,Arsenal,England,2
+103,William Saliba,Arsenal,France,2
+103,Jadon Sancho,Chelsea,England,2
+103,Fabian Schär,Newcastle United,Switzerland,2
+103,Ryan Sessegnon,Fulham,England,2
+103,John Stones,Manchester City,England,2
+103,Youri Tielemans,Aston Villa,Belgium,2
+103,Adama Traoré,Fulham,Spain,2
+103,Enes Ünal,Bournemouth,Turkey,2
+103,Aaron Wan-Bissaka,West Ham United,England,2
+103,Ryan Yates,Nottingham Forest,England,2
+103,Martin Ødegaard,Arsenal,Norway,2
+161,Tosin Adarabioyo,Chelsea,England,1
+161,Carlos Alcaraz,Everton,Argentina,1
+161,Elliot Anderson,Nottingham Forest,England,1
+161,Michail Antonio,West Ham United,Jamaica,1
+161,Taiwo Awoniyi,Nottingham Forest,Nigeria,1
+161,Leon Bailey,Aston Villa,Jamaica,1
+161,Calvin Bassey,Fulham,Nigeria,1
+161,Moisés Caicedo,Chelsea,Ecuador,1
+161,Tom Cairney,Fulham,Scotland,1
+161,Jens Cajuste,Ipswich Town,Sweden,1
+161,Matty Cash,Aston Villa,Poland,1
+161,Casemiro,Manchester United,Brazil,1
+161,Conor Chaplin,Ipswich Town,England,1
+161,Levi Colwill,Chelsea,England,1
+161,Lewis Cook,Bournemouth,England,1
+161,Murillo,Nottingham Forest,Brazil,1
+161,Patson Daka,Leicester City,Zambia,1
+161,Leif Davis,Ipswich Town,England,1
+161,Bobby De Cordova-Reid,Leicester City,Jamaica,1
+161,Justin Devenny,Crystal Palace,Northern Ireland,1
+161,Axel Disasi,Aston Villa,France,1
+161,Flynn Downes,Southampton,England,1
+161,Mateus Fernandes,Southampton,Portugal,1
+161,Romain Esse,Crystal Palace,England,1
+161,Pervis Estupiñán,Brighton & Hove Albion,Ecuador,1
+161,Wout Faes,Leicester City,Belgium,1
+161,Evan Ferguson,West Ham United,Ireland,1
+161,Rodrigo Gomes,Wolverhampton Wanderers,Portugal,1
+161,Jacob Greaves,Ipswich Town,England,1
+161,Jack Harrison,Everton,England,1
+161,Taylor Harwood-Bellis,Southampton,England,1
+161,Danny Ings,West Ham United,England,1
+161,Reece James,Chelsea,England,1
+161,Vitaly Janelt,Brentford,Germany,1
+161,Ferdi Kadioglu,Brighton & Hove Albion,Turkey,1
+161,Ibrahima Konaté,Liverpool,France,1
+161,Ezri Konsa,Aston Villa,England,1
+161,Maxence Lacroix,Crystal Palace,France,1
+161,Rico Lewis,Manchester City,England,1
+161,Keane Lewis-Potter,Brentford,England,1
+161,Myles Lewis-Skelly,Arsenal,England,1
+161,Harry Maguire,Manchester United,England,1
+161,Orel Mangala,Everton,Belgium,1
+161,Sam Morsy,Ipswich Town,Egypt,1
+161,Lewis Miley,Newcastle United,England,1
+161,Savinho,Manchester City,Brazil,1
+161,Marshall Munetsi,Wolverhampton Wanderers,Zimbabwe,1
+161,Reiss Nelson,Fulham,England,1
+161,Eddie Nketiah,Crystal Palace,England,1
+161,Matt O'Riley,Brighton & Hove Albion,Denmark,1
+161,Jacob Ramsey,Aston Villa,England,1
+161,Cristian Romero,Tottenham Hotspur,Argentina,1
+161,Pablo Sarabia,Wolverhampton Wanderers,Spain,1
+161,Luis Sinisterra,Bournemouth,Colombia,1
+161,Will Smallbone,Southampton,Ireland,1
+161,Carlos Soler,West Ham United,Spain,1
+161,Ramón Sosa,Nottingham Forest,Paraguay,1
+161,Djed Spence,Tottenham Hotspur,England,1
+161,Yukinari Sugawara,Southampton,Japan,1
+161,Kamaldeen Sulemana,Southampton,Ghana,1
+161,Crysencio Summerville,West Ham United,Netherlands,1
+161,James Tarkowski,Everton,England,1
+161,Jack Taylor,Ipswich Town,Ireland,1
+161,Jurriën Timber,Arsenal,Netherlands,1
+161,Sandro Tonali,Newcastle United,Italy,1
+161,Manuel Ugarte,Manchester United,Uruguay,1
+161,Virgil van Dijk,Liverpool,Netherlands,1
+161,Jan Paul van Hecke,Brighton & Hove Albion,Netherlands,1
+161,Mats Wieffer,Brighton & Hove Albion,Netherlands,1
+161,Neco Williams,Nottingham Forest,Wales,1
+161,Ashley Young,Everton,England,1
+234,Yasin Ayari,Brighton & Hove Albion,Sweden,0
+234,Santiago Bueno,Wolverhampton Wanderers,Uruguay,0
+234,Ryan Manning,Southampton,Ireland,0
+234,John McGinn,Aston Villa,Scotland,0
+234,Sepp van den Berg,Brentford,Netherlands,0
