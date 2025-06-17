@@ -4,8 +4,6 @@ from utils.goal_utils import scrape_goal_data
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Define the file path relative to the script's directory
-
 
 def write_to_json_file():
     goals_data = scrape_goal_data()

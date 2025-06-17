@@ -8,15 +8,21 @@ from bs4 import BeautifulSoup
 import re
 
 
-service = Service("/snap/bin/firefox.geckodriver")
-options = webdriver.FirefoxOptions()
-options.add_argument('-headless')
+# service = Service("/snap/bin/firefox.geckodriver")
+# options = webdriver.FirefoxOptions()
+# options.add_argument('-headless')
 
 
-driver = webdriver.Firefox(service=service, options=options)
+# driver = webdriver.Firefox(service=service, options=options)
 
 def scrape_goal_data():
     start = time.time()
+    service = Service("/snap/bin/firefox.geckodriver")
+    options = webdriver.FirefoxOptions()
+    options.add_argument('-headless')
+
+
+    driver = webdriver.Firefox(service=service, options=options)
     driver.get("https://www.premierleague.com/stats/top/players/goals")
     time.sleep(1) 
     player_info = []
@@ -36,6 +42,23 @@ def scrape_goal_data():
             EC.element_to_be_clickable((By.ID, "advertClose"))
         )
         close_ad_button.click()
+    except Exception:
+        print("No ad found, continuing...")
+    try:
+# Wait for the "Close Advert" button and click it
+        season_button_dropdown = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/main/div[2]/div[1]/section/div[2]"))
+        )
+        season_button_dropdown.click()
+    except Exception:
+        print("No ad found, continuing...")
+
+    try:
+# Wait for the "Close Advert" button and click it
+        season_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/main/div[2]/div[1]/section/div[2]/div[3]/ul/li[3]"))
+        )
+        season_button.click()
     except Exception:
         print("No ad found, continuing...")
     while True:
@@ -87,3 +110,7 @@ def get_num_of_players_in_table(data_num_entries):
     return expected_num_of_extracted_players
 
 
+
+if __name__ == '__main__':
+    result = scrape_goal_data()
+    print(result)
